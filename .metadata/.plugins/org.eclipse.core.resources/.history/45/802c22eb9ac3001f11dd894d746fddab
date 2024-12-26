@@ -1,0 +1,19 @@
+package application;
+
+import java.io.BufferedReader;
+import java.io.FileReader;
+
+public class Program {
+
+	public static void main(String[] args) {
+		
+		String caminho = "\"C:\\Users\\JoãoVitorDuarteSanto\\Documents\\Estudos\\CompareTo\\CompareTo\\funcionarios.txt\"";
+		
+		try (BufferedReader leitoroArquivo = new BufferedReader((new FileReader(caminho))){
+			
+		} catch (Exception e) {
+			System.out.println("Exception: " + e);
+		}
+	}
+
+}

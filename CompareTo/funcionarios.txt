@@ -1,0 +1,5 @@
+João,3500
+Beto,1759
+Ana Beatriz,1200
+Beatriz,899
+Luis Guilherme,2900
